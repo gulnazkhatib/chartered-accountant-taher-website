@@ -23,6 +23,7 @@ body{
     line-height: 10px;
     border-radius: 4px;
     display: flex;
+    flex-wrap: wrap;
   }
   
   .header a.logo {
