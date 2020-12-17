@@ -47,7 +47,7 @@ body{
     float: right;
   }
 
-  @media screen and (max-width:50px){
+  @media screen and (max-width:480px){
       .header a{
           float: none;
           display: block;
