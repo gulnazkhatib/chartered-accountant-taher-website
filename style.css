@@ -26,10 +26,7 @@ body{
     flex-wrap: wrap;
   }
   
-  .header a.logo {
-   
-    line-height: 10px;
-  }
+  
   
   .header a:hover {
     background-color: #ddd;
@@ -50,7 +47,8 @@ body{
   @media screen and (max-width:480px){
       .header a{
           float: none;
-          display: block;
+          display: flex;
+          flex-wrap: wrap;
           text-align: left;
       }
       .header{
